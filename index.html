@@ -1,44 +1,78 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./App.css">
-    <title>Practica 1</title>
+    <link rel="stylesheet" href="./App.css" />
+    <title>Teudy Joshua | Portfolio</title>
   </head>
   <body>
     <div id="root">
-       <section class="main-container">
-      <div class="items-container">
-        <h1>Práctica #1</h1>
-        <p><strong>Nombre:</strong> Teudy Joshua</p>
-        <p><strong>Apellidos:</strong> Encarnacion Fulgencio</p>
-        <p><strong>Teléfono:</strong> +1 829-388-5700</p>
-        <p><strong>Dirección:</strong> Calle Camino 2do Marbella III #82</p>
-        <p><strong>Correo Electrónico:</strong> teudijoshua@gmail.com</p>
-        <p><strong>Hobbies:</strong> Creación de Videojuegos, Programación, Piano, Explorar nuevos lugares y aprender</p>
-
-        <div class="link-group">
-          <a 
-            class="social-link instagram" 
-            href="https://www.instagram.com/teudyenc_/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-          >
-            Instagram
-          </a>
-
-          <a 
-            class="social-link youtube" 
-            href="https://www.youtube.com/watch?v=g4xoe5Ccuzc" 
-            target="_blank" 
-            rel="noopener noreferrer"
-          >
-            Ver en YouTube
-          </a>
+      <header class="header">
+        <div class="profile-image-container">
+          <img
+            src="./src/assets/JoshuaIMG.jpeg"
+            alt="Foto de Teudy Joshua"
+            class="profile-image"
+          />
         </div>
-      </div>
-    </section>
+        <h1>Teudy Joshua</h1>
+        <p class="subtitle">Programador | Creador de Videojuegos | Explorador Curioso</p>
+      </header>
+
+      <main class="main-container">
+        <section class="profile-section">
+          <h2>Información Personal</h2>
+          <p><strong>Nombre:</strong> Teudy Joshua</p>
+          <p><strong>Apellidos:</strong> Encarnación Fulgencio</p>
+          <p><strong>Teléfono:</strong> +1 829-388-5700</p>
+          <p><strong>Dirección:</strong> Calle Camino 2do Marbella III #82</p>
+          <p><strong>Correo Electrónico:</strong> <a href="mailto:teudijoshua@gmail.com">teudijoshua@gmail.com</a></p>
+        </section>
+
+        <section class="hobbies-section">
+          <h2>Sobre Mí</h2>
+          <p>
+            ¡Hola! Soy <strong>Teudy Joshua</strong>, un apasionado programador con gran interés en la <strong>creación de videojuegos</strong>,
+            el <strong>desarrollo de software</strong>, y la <strong>exploración de nuevas tecnologías</strong>. Me encanta
+            <strong>tocar piano</strong>, <strong>viajar</strong> y aprender constantemente cosas nuevas para expandir mi creatividad y habilidades.
+          </p>
+          <ul>
+            <li>🎮 Creación de Videojuegos</li>
+            <li>💻 Programación</li>
+            <li>🎹 Piano</li>
+            <li>🧭 Explorar nuevos lugares</li>
+            <li>📚 Aprender constantemente</li>
+          </ul>
+        </section>
+
+        <section class="social-section">
+          <h2>Redes y Enlaces</h2>
+          <div class="link-group">
+            <a 
+              class="social-link instagram" 
+              href="https://www.instagram.com/teudyenc_/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              📷 Instagram
+            </a>
+
+            <a 
+              class="social-link youtube" 
+              href="https://www.youtube.com/watch?v=g4xoe5Ccuzc" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              ▶️ Ver en YouTube
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>© 2025 Teudy Joshua. Todos los derechos reservados.</p>
+      </footer>
     </div>
   </body>
 </html>
